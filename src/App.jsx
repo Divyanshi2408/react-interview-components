@@ -3,6 +3,7 @@ import Todo from './todo'
 import Toogle from './Toogle'
 import Pagination from './Pagination'
 import SearchWithDebounce from './SearchWithDebounce'
+import UserDirectory from './UserDirectory'
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
     <Toogle/>
     <Pagination/>
     <SearchWithDebounce/>
+    <UserDirectory/>
     </>
   )
 }
