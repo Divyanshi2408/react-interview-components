@@ -4,6 +4,7 @@ import Toogle from './Toogle'
 import Pagination from './Pagination'
 import SearchWithDebounce from './SearchWithDebounce'
 import UserDirectory from './UserDirectory'
+import Model from './Model'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
     <Pagination/>
     <SearchWithDebounce/>
     <UserDirectory/>
+    <Model/>
     </>
   )
 }
