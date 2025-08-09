@@ -5,6 +5,8 @@ import Pagination from './Pagination'
 import SearchWithDebounce from './SearchWithDebounce'
 import UserDirectory from './UserDirectory'
 import Model from './Model'
+import MultiStepForm from './MultiStepForm'
+import ProductFilter from './ProductFilter'
 
 
 const App = () => {
@@ -16,6 +18,8 @@ const App = () => {
     <SearchWithDebounce/>
     <UserDirectory/>
     <Model/>
+    <MultiStepForm/>
+    <ProductFilter/>
     </>
   )
 }
